@@ -1,0 +1,27 @@
+@keyframes ropeWave {
+  0% {
+    transform: scale(1);
+    color: #e62e2d;
+  }
+  15% {
+    transform: scale(0.8) translateY(-6px); /* chhota + upar */
+    color: #e62e2d;
+  }
+  40% {
+    transform: scale(1.25) translateY(4px); /* bada + neeche */
+    background: linear-gradient(to right, #e62e2d, #f97316, #facc15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    transform: scale(1);
+    background: linear-gradient(to right, #e62e2d, #f97316, #facc15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.touch-heading-letter {
+  display: inline-block;
+  animation: ropeWave 2s ease-in-out infinite;
+}
