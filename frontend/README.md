@@ -1,12 +1,15 @@
-# React + Vite
+📦 Dependencies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses the following dependencies:
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+react-icons – Icon library with multiple icon packs.
 
-## Expanding the ESLint configuration
+@fortawesome/free-solid-svg-icons – Solid style FontAwesome icons.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+react-fontawesome – React wrapper for FontAwesome icons.
+
+first run the command    -    npm install and then run the some other dependency - npm install react-icons @fortawesome/free-solid-svg-icons react-fontawesome
+
+
+then  run complete project by using the - npm run dev
